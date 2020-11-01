@@ -1,1 +1,108 @@
+body {
+  font-size: 16px;
+  background-color: pink;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: white;
+  border-radius: 0;
+  border: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  color: black;
+}
+p{
+  text-align: center;
+  color: black;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { /* Food, LCC */
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 5px 5px 5px ;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+
+
+/* HOME PAGE */
+.container .jumbotron {
+  box-shadow: 0 0 50px ;
+  border: 2px solid black;
+ background-color: grey;
+
+
+}
+/* END HOME PAGE */
+
+/********** Desktop - md **********/
+@media (min-width: 768px)and (max-width: 720px){
+  .container .jumbotron {
+    
+    height:  400px;
+  }
+}
+
+/********** Tablet -sm **********/
+@media (min-width: 576px) and (max-width: 540px) {
+  /* Header */
+   .container .jumbotron {
+    
+    height:  400px;
+  }
+/********** Mobile xs  **********/
+  @media (max-width: 576px) {
+  /* Header */
+   .container .jumbotron {
+    
+    height:  400px;
+
+
+}
+
+
 
